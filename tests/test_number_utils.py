@@ -12,7 +12,7 @@ class PrimeListTest(unittest.TestCase):
         is_prime = is_prime_list(prime_list)
         self.assertTrue(is_prime)
 
-    def test_give_0_not_prime(self):
+    def test_give_0_1_not_prime(self):
         prime_list = [0, 1]
         is_prime = is_prime_list(prime_list)
         self.assertFalse(is_prime)
