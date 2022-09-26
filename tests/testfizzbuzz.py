@@ -1,4 +1,4 @@
-from codes.Runnumber_util import FizzBuzz
+from codes.fizzbuzz import FizzBuzz
 import unittest
 
 class FizzBuzzTest(unittest.TestCase):
@@ -25,4 +25,15 @@ class FizzBuzzTest(unittest.TestCase):
         self.assertEqual(result,expected_result)
         self.assertNotEqual(result,'Fizz')
         self.assertNotEqual(result,'Buzz')
-   
+
+    def test_give_679_is_nothing(self):
+        number = 679
+        expected_result = None
+        result = FizzBuzz(number)
+        self.assertEqual(result,expected_result)
+        
+    def test_give_minus5_is_Buzz(self):
+        number = -5
+        expected_result = 'Buzz'
+        result = FizzBuzz(number)
+        self.assertEqual(result,expected_result)
