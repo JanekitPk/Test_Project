@@ -9,7 +9,7 @@ class AlternatingCharTest(unittest.TestCase):
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
 
-    def AxcZ_3_give_DafC(self):
+    def test_AxcZ_3_give_DafC(self):
         string = 'AxcZ+'
         shift_num = 3
         expected_result = 'DafC+'
