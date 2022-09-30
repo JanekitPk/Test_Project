@@ -9,7 +9,6 @@ class AlternatingCharTest(unittest.TestCase):
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
 
-class AlternatingCharTest(unittest.TestCase):
     def AxcZ_3_give_DafC(self):
         string = 'AxcZ+'
         shift_num = 3
@@ -17,7 +16,6 @@ class AlternatingCharTest(unittest.TestCase):
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
 
-class AlternatingCharTest(unittest.TestCase):
     def test_asfsgrja_7_give_hzmznyqh(self):
         string = 'asfsgrja'
         shift_num = 7
@@ -25,7 +23,6 @@ class AlternatingCharTest(unittest.TestCase):
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
 
-class AlternatingCharTest(unittest.TestCase):
     def test_ndSENGSNnedl657_5_give_siXJSLXSsjiq657(self):
         string = 'ndSENGSNnedl657'
         shift_num = 5
@@ -33,7 +30,6 @@ class AlternatingCharTest(unittest.TestCase):
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
 
-class AlternatingCharTest(unittest.TestCase):
     def test_fdjns14_6_give_ljpty14(self):
         string = 'fdjns14@'
         shift_num = 6
@@ -41,7 +37,6 @@ class AlternatingCharTest(unittest.TestCase):
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
 
-class AlternatingCharTest(unittest.TestCase):
     def test_aZx_min1_give_zYw(self):
         string = 'aZx'
         shift_num = -1
@@ -49,7 +44,6 @@ class AlternatingCharTest(unittest.TestCase):
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
 
-class AlternatingCharTest(unittest.TestCase):
     def test_b_3_give_e(self):
         string = 'b'
         shift_num = 3
@@ -57,7 +51,6 @@ class AlternatingCharTest(unittest.TestCase):
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
 
-class AlternatingCharTest(unittest.TestCase):
     def test_C_4_give_G(self):
         string = 'C'
         shift_num = 4
@@ -65,7 +58,6 @@ class AlternatingCharTest(unittest.TestCase):
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
 
-class AlternatingCharTest(unittest.TestCase):
     def test_O_5_give_T(self):
         string = 'O'
         shift_num = 5
