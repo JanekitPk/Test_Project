@@ -40,3 +40,11 @@ class AlternatingCharTest(unittest.TestCase):
         expected_result = 'ljpty14@'
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
+
+class AlternatingCharTest(unittest.TestCase):
+    def test_aZx_min1_give_zYw(self):
+        string = 'aZx'
+        shift_num = -1
+        expected_result = 'zYw'
+        result = caesarCipher(string,shift_num)
+        self.assertEqual(result,expected_result)
