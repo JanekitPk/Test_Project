@@ -36,7 +36,7 @@ class AlternatingCharTest(unittest.TestCase):
 class AlternatingCharTest(unittest.TestCase):
     def test_fdjns14_6_give_ljpty14(self):
         string = 'fdjns14@'
-        shift_num = 2
+        shift_num = 6
         expected_result = 'ljpty14@'
         result = caesarCipher(string,shift_num)
         self.assertEqual(result,expected_result)
